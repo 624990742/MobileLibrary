@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="71" id="KGk-i7-Jjw" customClass="MLBorrowBooksCell" customModule="MobileLibrary" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="329" height="71"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="329" height="71"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6vK-1N-7UW">
+                        <rect key="frame" x="15" y="25" width="37" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jiantou_right_hui" translatesAutoresizingMaskIntoConstraints="NO" id="R8W-lc-z7L">
+                        <rect key="frame" x="303" y="25.666666666666664" width="11" height="19.666666666666664"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="11112" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URZ-Sj-za1">
+                        <rect key="frame" x="52" y="25.333333333333336" width="243" height="20.333333333333336"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.36862745098039218" green="0.40392156862745099" blue="0.43137254901960786" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PqA-uT-wTB">
+                        <rect key="frame" x="289" y="0.0" width="30" height="71"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="KNx-nn-c3h"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="saoyisao"/>
+                        <connections>
+                            <action selector="saoBtnAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="2h5-oJ-SLF"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="PqA-uT-wTB" secondAttribute="trailing" constant="10" id="7VX-UD-wgg"/>
+                    <constraint firstItem="PqA-uT-wTB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Il2-GA-mhE"/>
+                    <constraint firstItem="R8W-lc-z7L" firstAttribute="leading" secondItem="URZ-Sj-za1" secondAttribute="trailing" constant="8" id="K4S-3X-Sdl"/>
+                    <constraint firstItem="URZ-Sj-za1" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="KyP-sf-st9"/>
+                    <constraint firstItem="6vK-1N-7UW" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="MwR-TQ-jhw"/>
+                    <constraint firstItem="URZ-Sj-za1" firstAttribute="leading" secondItem="6vK-1N-7UW" secondAttribute="trailing" id="V7p-vd-6tp"/>
+                    <constraint firstAttribute="trailing" secondItem="R8W-lc-z7L" secondAttribute="trailing" constant="15" id="boP-SH-Rpr"/>
+                    <constraint firstAttribute="bottom" secondItem="PqA-uT-wTB" secondAttribute="bottom" id="fPd-Gt-sAf"/>
+                    <constraint firstItem="6vK-1N-7UW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="fw3-Tk-M5S"/>
+                    <constraint firstItem="R8W-lc-z7L" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="o2R-r7-2Y4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="contentLabel" destination="URZ-Sj-za1" id="fg6-wI-IEe"/>
+                <outlet property="nameLabel" destination="6vK-1N-7UW" id="5gW-ex-zhs"/>
+                <outlet property="rightImageView" destination="R8W-lc-z7L" id="0AE-6m-RS6"/>
+                <outlet property="saoBtn" destination="PqA-uT-wTB" id="GZT-X9-CCy"/>
+            </connections>
+            <point key="canvasLocation" x="101.5267175572519" y="-23.591549295774648"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="jiantou_right_hui" width="11" height="19.666666030883789"/>
+        <image name="saoyisao" width="21.333333969116211" height="21.333333969116211"/>
+    </resources>
+</document>

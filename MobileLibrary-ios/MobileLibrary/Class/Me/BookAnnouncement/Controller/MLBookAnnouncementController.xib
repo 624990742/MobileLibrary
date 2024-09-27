@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MLBookAnnouncementController" customModule="MobileLibrary" customModuleProvider="target">
+            <connections>
+                <outlet property="textView" destination="kPv-ZD-05w" id="hgU-M8-FuB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewTop" destination="8em-ez-yEi" id="SSO-TG-rdz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Xx-lI-Hx0">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q11-Ms-cnC">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="759"/>
+                            <subviews>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kPv-ZD-05w">
+                                    <rect key="frame" x="15" y="0.0" width="363" height="759"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <mutableString key="text">尊敬的读者们：
+
+大家好！欢迎来到我们的图书馆。为了维护图书馆的秩序，提供良好的阅读环境，我们特此发布以下公告，希望各位读者能够共同遵守。
+
+一、开放时间
+
+本图书馆每日开放时间为：上午8:30至下午5:00，周末及法定节假日正常开放。请合理安排您的阅读时间，确保在规定时间内进出图书馆。
+
+二、借阅规定
+
+每位读者可凭有效证件办理借阅证，借阅证需妥善保管，遗失请及时补办。
+借阅期限：普通图书借阅期限为30天，可续借一次，续借期限为15天。请按时归还图书，以免影响其他读者的借阅。
+请爱护图书，不要在图书上涂写、撕毁或损坏。如有损坏或丢失图书，需按照相关规定进行赔偿。
+三、阅读环境
+
+请保持图书馆内安静，不要在图书馆内大声喧哗、打闹或使用手机等电子设备。
+请将书包、衣物等物品存放在指定区域，不要将私人物品放置在阅览桌上。
+禁止在图书馆内吸烟、吃东西、喝饮料等行为。
+四、违规行为处理
+
+对于违反图书馆规定的读者，我们将视情节轻重给予警告、罚款、暂停借阅等处理。严重者将取消其借阅资格，并上报相关部门处理。
+
+我们诚挚地希望各位读者能够共同维护图书馆的秩序和阅读环境，让图书馆成为我们学习、交流、成长的乐园。感谢大家的支持与配合！
+
+图书馆全体工作人员
+2024年4月3日</mutableString>
+                                    <color key="textColor" systemColor="labelColor"/>
+                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="kPv-ZD-05w" firstAttribute="leading" secondItem="q11-Ms-cnC" secondAttribute="leading" constant="15" id="6RJ-kZ-7tH"/>
+                                <constraint firstAttribute="bottom" secondItem="kPv-ZD-05w" secondAttribute="bottom" id="Kco-hk-q43"/>
+                                <constraint firstItem="kPv-ZD-05w" firstAttribute="top" secondItem="q11-Ms-cnC" secondAttribute="top" id="h1S-7G-Oab"/>
+                                <constraint firstAttribute="trailing" secondItem="kPv-ZD-05w" secondAttribute="trailing" constant="15" id="yRx-cp-La8"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="q11-Ms-cnC" firstAttribute="centerX" secondItem="4Xx-lI-Hx0" secondAttribute="centerX" id="37m-cV-tCi"/>
+                        <constraint firstItem="q11-Ms-cnC" firstAttribute="top" secondItem="4Xx-lI-Hx0" secondAttribute="top" id="8em-ez-yEi"/>
+                        <constraint firstAttribute="bottom" secondItem="q11-Ms-cnC" secondAttribute="bottom" id="Lqe-lS-Orz"/>
+                        <constraint firstItem="q11-Ms-cnC" firstAttribute="centerY" secondItem="4Xx-lI-Hx0" secondAttribute="centerY" id="eBL-Zc-Aek"/>
+                        <constraint firstItem="q11-Ms-cnC" firstAttribute="leading" secondItem="4Xx-lI-Hx0" secondAttribute="leading" id="kku-Gd-5VP"/>
+                        <constraint firstAttribute="trailing" secondItem="q11-Ms-cnC" secondAttribute="trailing" id="ksJ-nj-A6q"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="4Xx-lI-Hx0" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="7ka-f5-ERf"/>
+                <constraint firstAttribute="bottom" secondItem="4Xx-lI-Hx0" secondAttribute="bottom" constant="34" id="ORQ-S3-h1a"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="4Xx-lI-Hx0" secondAttribute="trailing" id="dHp-Vs-66Y"/>
+                <constraint firstItem="4Xx-lI-Hx0" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="oFJ-Oa-5ZT"/>
+            </constraints>
+            <point key="canvasLocation" x="130.53435114503816" y="-33.098591549295776"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

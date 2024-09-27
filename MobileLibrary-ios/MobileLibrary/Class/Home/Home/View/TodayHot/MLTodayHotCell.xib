@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="182" id="KGk-i7-Jjw" customClass="MLTodayHotCell" customModule="MobileLibrary" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="509" height="182"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="509" height="182"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l5B-a4-1hJ">
+                        <rect key="frame" x="20" y="0.0" width="469" height="182"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_women" translatesAutoresizingMaskIntoConstraints="NO" id="aJS-CZ-c5x">
+                                <rect key="frame" x="0.0" y="16" width="100" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Dfa-xP-kr9"/>
+                                    <constraint firstAttribute="height" constant="110" id="hwl-UD-XDk"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="资治通鉴" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTa-Gb-lfe">
+                                <rect key="frame" x="120" y="16" width="349" height="27.666666666666671"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="作者：司马懿" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvs-cb-4Y8">
+                                <rect key="frame" x="120" y="53.666666666666664" width="349" height="19.333333333333336"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="出版社：北京大学出版社" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OA4-Hg-8Ks">
+                                <rect key="frame" x="119.99999999999999" y="104" width="190.66666666666663" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OA4-Hg-8Ks" firstAttribute="bottom" secondItem="aJS-CZ-c5x" secondAttribute="bottom" constant="-1" id="39d-4v-jem"/>
+                            <constraint firstItem="xvs-cb-4Y8" firstAttribute="top" secondItem="GTa-Gb-lfe" secondAttribute="bottom" constant="10" id="PRs-gH-pcj"/>
+                            <constraint firstItem="GTa-Gb-lfe" firstAttribute="leading" secondItem="aJS-CZ-c5x" secondAttribute="trailing" constant="20" id="PlD-oM-2oG"/>
+                            <constraint firstItem="aJS-CZ-c5x" firstAttribute="leading" secondItem="l5B-a4-1hJ" secondAttribute="leading" id="WuJ-cv-JyV"/>
+                            <constraint firstItem="GTa-Gb-lfe" firstAttribute="top" secondItem="aJS-CZ-c5x" secondAttribute="top" id="ZZW-ZT-wVb"/>
+                            <constraint firstItem="xvs-cb-4Y8" firstAttribute="leading" secondItem="GTa-Gb-lfe" secondAttribute="leading" id="aBQ-2i-6up"/>
+                            <constraint firstItem="OA4-Hg-8Ks" firstAttribute="leading" secondItem="GTa-Gb-lfe" secondAttribute="leading" id="dvJ-0Z-Tov"/>
+                            <constraint firstItem="aJS-CZ-c5x" firstAttribute="top" secondItem="l5B-a4-1hJ" secondAttribute="top" constant="16" id="vZE-Rm-GPq"/>
+                            <constraint firstAttribute="trailing" secondItem="GTa-Gb-lfe" secondAttribute="trailing" id="vvW-4X-MCs"/>
+                            <constraint firstItem="xvs-cb-4Y8" firstAttribute="trailing" secondItem="GTa-Gb-lfe" secondAttribute="trailing" id="zEW-Cz-hA1"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="l5B-a4-1hJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="bkz-2Y-Ieh"/>
+                    <constraint firstAttribute="trailing" secondItem="l5B-a4-1hJ" secondAttribute="trailing" constant="20" id="esQ-OV-zVH"/>
+                    <constraint firstItem="l5B-a4-1hJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="fqi-jj-jzh"/>
+                    <constraint firstAttribute="bottom" secondItem="l5B-a4-1hJ" secondAttribute="bottom" id="iI6-6J-mlT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bgView" destination="l5B-a4-1hJ" id="FXO-wL-sbg"/>
+                <outlet property="bookAuthorLabel" destination="xvs-cb-4Y8" id="Qm7-f0-fSL"/>
+                <outlet property="bookTitle" destination="GTa-Gb-lfe" id="mUe-s0-CQF"/>
+                <outlet property="iconImageView" destination="aJS-CZ-c5x" id="y1t-Bd-j3x"/>
+                <outlet property="pressLabel" destination="OA4-Hg-8Ks" id="C76-VA-zuD"/>
+            </connections>
+            <point key="canvasLocation" x="273" y="27"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_women" width="170.66667175292969" height="170.66667175292969"/>
+    </resources>
+</document>

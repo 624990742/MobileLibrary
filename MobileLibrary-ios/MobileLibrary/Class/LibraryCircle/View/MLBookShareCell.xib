@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="268" id="KGk-i7-Jjw" customClass="MLBookShareCell" customModule="MobileLibrary" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="597" height="268"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="597" height="268"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f01-Qi-3WR">
+                        <rect key="frame" x="0.0" y="20" width="597" height="120"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book1.png" translatesAutoresizingMaskIntoConstraints="NO" id="BRd-4P-eC3">
+                                <rect key="frame" x="15" y="20" width="75" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="JuJ-OK-gdA"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="狼途腾" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eb7-Ze-ug1">
+                                <rect key="frame" x="110" y="20" width="382" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="姜戎" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICH-Ex-Mol">
+                                <rect key="frame" x="110" y="51" width="34.666666666666657" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYk-90-J42">
+                                <rect key="frame" x="492" y="50" width="90" height="35"/>
+                                <color key="backgroundColor" red="0.032029023002412498" green="0.81075288287368075" blue="0.97894543409347534" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="7p8-NB-GF9"/>
+                                    <constraint firstAttribute="height" constant="35" id="c0I-w7-N8t"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="更多分享">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="moreBtnAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="gHA-xb-Mpa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="机械出版社" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Utd-Vi-qHw">
+                                <rect key="frame" x="110" y="88" width="86.666666666666686" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gYk-90-J42" firstAttribute="leading" secondItem="Eb7-Ze-ug1" secondAttribute="trailing" id="8iP-Ww-Uqb"/>
+                            <constraint firstItem="ICH-Ex-Mol" firstAttribute="top" secondItem="Eb7-Ze-ug1" secondAttribute="bottom" constant="10" id="BfO-wp-Lhy"/>
+                            <constraint firstItem="Utd-Vi-qHw" firstAttribute="bottom" secondItem="BRd-4P-eC3" secondAttribute="bottom" id="IaB-4s-2Mg"/>
+                            <constraint firstAttribute="height" constant="120" id="Ike-sm-Dd5"/>
+                            <constraint firstItem="Eb7-Ze-ug1" firstAttribute="leading" secondItem="BRd-4P-eC3" secondAttribute="trailing" constant="20" id="Itc-As-YTT"/>
+                            <constraint firstAttribute="bottom" secondItem="BRd-4P-eC3" secondAttribute="bottom" constant="10" id="K7k-CE-X5I"/>
+                            <constraint firstItem="gYk-90-J42" firstAttribute="top" secondItem="f01-Qi-3WR" secondAttribute="top" constant="50" id="LDY-LI-Oot"/>
+                            <constraint firstItem="ICH-Ex-Mol" firstAttribute="leading" secondItem="Eb7-Ze-ug1" secondAttribute="leading" id="OVy-Bi-Q2c"/>
+                            <constraint firstItem="ICH-Ex-Mol" firstAttribute="centerY" secondItem="f01-Qi-3WR" secondAttribute="centerY" id="P6b-4T-B0O"/>
+                            <constraint firstItem="BRd-4P-eC3" firstAttribute="leading" secondItem="f01-Qi-3WR" secondAttribute="leading" constant="15" id="fcj-he-3fa"/>
+                            <constraint firstItem="Utd-Vi-qHw" firstAttribute="leading" secondItem="ICH-Ex-Mol" secondAttribute="leading" id="gII-XG-beR"/>
+                            <constraint firstItem="BRd-4P-eC3" firstAttribute="top" secondItem="f01-Qi-3WR" secondAttribute="top" constant="20" id="k16-ho-LbB"/>
+                            <constraint firstItem="Eb7-Ze-ug1" firstAttribute="top" secondItem="BRd-4P-eC3" secondAttribute="top" id="kCD-qU-D5H"/>
+                            <constraint firstItem="Utd-Vi-qHw" firstAttribute="top" secondItem="ICH-Ex-Mol" secondAttribute="bottom" constant="19" id="knO-sn-PPu"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ck6-5t-ICc">
+                        <rect key="frame" x="0.0" y="140" width="597" height="128"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header_defalt" translatesAutoresizingMaskIntoConstraints="NO" id="Zo2-Hp-f2m">
+                                <rect key="frame" x="15" y="63" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="4h6-Yd-dCQ"/>
+                                    <constraint firstAttribute="height" constant="50" id="OhR-cF-0E7"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="《我是沙湾女》以一个八十多岁老人的回忆，展示了古镇沙湾的历史地理风物人情，涉及地理物候、建筑街市、政治时局、经济民生、节日习俗、风味美食、家族乡邻、市井风尚、学堂书香、掌故传奇等等。作者十七岁之前生活在番禺沙湾，为二十世纪三四十年代。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTr-VD-Gfs">
+                                <rect key="frame" x="15" y="10" width="567" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="唉读书的鱼" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wkt-bo-scn">
+                                <rect key="frame" x="75" y="77.666666666666657" width="86.666666666666686" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWa-7N-JvC">
+                                <rect key="frame" x="542" y="77" width="40" height="22"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="10" image="dianzan">
+                                    <color key="titleColor" name="AccentColor"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="TWa-7N-JvC" secondAttribute="trailing" constant="15" id="0Ky-lU-pi3"/>
+                            <constraint firstItem="Wkt-bo-scn" firstAttribute="leading" secondItem="Zo2-Hp-f2m" secondAttribute="trailing" constant="10" id="FSf-tb-lbO"/>
+                            <constraint firstItem="Wkt-bo-scn" firstAttribute="centerY" secondItem="Zo2-Hp-f2m" secondAttribute="centerY" id="G7D-E8-dV5"/>
+                            <constraint firstItem="Zo2-Hp-f2m" firstAttribute="top" secondItem="gTr-VD-Gfs" secondAttribute="bottom" constant="5" id="UP3-VV-oJd"/>
+                            <constraint firstAttribute="bottom" secondItem="Zo2-Hp-f2m" secondAttribute="bottom" constant="15" id="X8X-7B-9WF"/>
+                            <constraint firstItem="gTr-VD-Gfs" firstAttribute="top" secondItem="ck6-5t-ICc" secondAttribute="top" constant="10" id="dB9-rv-V5j"/>
+                            <constraint firstAttribute="trailing" secondItem="gTr-VD-Gfs" secondAttribute="trailing" constant="15" id="zOw-31-BVo"/>
+                            <constraint firstItem="TWa-7N-JvC" firstAttribute="centerY" secondItem="Zo2-Hp-f2m" secondAttribute="centerY" id="zZ1-eA-boA"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7NI-0p-XTf">
+                        <rect key="frame" x="0.0" y="0.0" width="597" height="20"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="efV-th-fMe"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ck6-5t-ICc" secondAttribute="bottom" id="1Bs-sd-W61"/>
+                    <constraint firstItem="gYk-90-J42" firstAttribute="trailing" secondItem="TWa-7N-JvC" secondAttribute="trailing" id="5S3-oc-wwj"/>
+                    <constraint firstAttribute="trailing" secondItem="f01-Qi-3WR" secondAttribute="trailing" id="A4M-I4-163"/>
+                    <constraint firstItem="7NI-0p-XTf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="FQh-io-naT"/>
+                    <constraint firstItem="f01-Qi-3WR" firstAttribute="top" secondItem="7NI-0p-XTf" secondAttribute="bottom" id="aZ9-3Q-E9d"/>
+                    <constraint firstItem="gTr-VD-Gfs" firstAttribute="leading" secondItem="BRd-4P-eC3" secondAttribute="leading" id="amu-ww-is4"/>
+                    <constraint firstItem="ck6-5t-ICc" firstAttribute="top" secondItem="f01-Qi-3WR" secondAttribute="bottom" id="cIS-af-yTO"/>
+                    <constraint firstAttribute="trailing" secondItem="ck6-5t-ICc" secondAttribute="trailing" id="ehh-Si-ewa"/>
+                    <constraint firstItem="ck6-5t-ICc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="fiL-Hb-FSG"/>
+                    <constraint firstItem="7NI-0p-XTf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="gQP-G9-Nmm"/>
+                    <constraint firstAttribute="trailing" secondItem="7NI-0p-XTf" secondAttribute="trailing" id="kF3-ld-qTD"/>
+                    <constraint firstItem="f01-Qi-3WR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="nuW-J7-IIn"/>
+                    <constraint firstItem="Zo2-Hp-f2m" firstAttribute="leading" secondItem="BRd-4P-eC3" secondAttribute="leading" id="zGk-it-FIY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bookAuthorLabel" destination="ICH-Ex-Mol" id="tPS-mn-U12"/>
+                <outlet property="bookBrifeLabel" destination="gTr-VD-Gfs" id="H8H-Nk-ND7"/>
+                <outlet property="bookCoverImageView" destination="BRd-4P-eC3" id="8ZU-ID-Pus"/>
+                <outlet property="bookPressLabel" destination="Utd-Vi-qHw" id="x1F-tE-JND"/>
+                <outlet property="bookTitleLabel" destination="Eb7-Ze-ug1" id="qyF-tl-bM3"/>
+                <outlet property="moreBtn" destination="gYk-90-J42" id="252-pc-AA3"/>
+            </connections>
+            <point key="canvasLocation" x="341.2213740458015" y="66.197183098591552"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="book1.png" width="51.75" height="71.25"/>
+        <image name="dianzan" width="21.333333969116211" height="21.333333969116211"/>
+        <image name="header_defalt" width="21.333333969116211" height="21.333333969116211"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

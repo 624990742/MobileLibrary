@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DC790464-DE81-426F-A6B2-B1E0134B2404"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA9ED6B4-3D62-41E1-AC50-CB5C49A10588"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MobileLibrary/Class/Work/AddPeople/Controller/MLInputInfoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "dealPersonLogic()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA4B05DB-6579-48EB-8E44-574EEC8BEFC3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MobileLibrary/Class/Home/BookList/Controller/MLHotBookListController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A0E3E087-584F-43E8-BB0E-7C045D6A92AB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MobileLibrary/Class/Home/BookCategory/Controller/MLBookCategoryController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "segmentedView(_:didSelectedItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47095095-66B6-49A4-858F-5796AF64C98A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MobileLibrary/Class/Work/BorrowBooksList/Controller/MLBorrowBooksListController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "280"
+            endingLineNumber = "280"
+            landmarkName = "getBorrowBooksListData(reacordBookState:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "47095095-66B6-49A4-858F-5796AF64C98A - 5ac61dcbf77b5e54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, Any, Swift.String) -&gt; () in MobileLibrary.MLBorrowBooksListController.getBorrowBooksListData(reacordBookState: MobileLibrary.MLRecordBookStateType) -&gt; ()"
+                  moduleName = "MobileLibrary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jcmac/Desktop/workSpace/MobileLibrary/MobileLibrary-ios/MobileLibrary/Class/Work/BorrowBooksList/Controller/MLBorrowBooksListController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "280"
+                  endingLineNumber = "280"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "47095095-66B6-49A4-858F-5796AF64C98A - 5ac61dcbf77b5e54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, Any, Swift.String) -&gt; () in MobileLibrary.MLBorrowBooksListController.getBorrowBooksListData(reacordBookState: MobileLibrary.MLRecordBookStateType) -&gt; ()"
+                  moduleName = "MobileLibrary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jcmac/Desktop/workSpace/MobileLibrary/MobileLibrary-ios/MobileLibrary/Class/Work/BorrowBooksList/Controller/MLBorrowBooksListController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "280"
+                  endingLineNumber = "280"
+                  offsetFromSymbolStart = "264">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="241" id="KGk-i7-Jjw" customClass="MLBookDetailCell" customModule="MobileLibrary" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="398" height="241"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="398" height="241"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="详细信息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVk-HI-coX">
+                        <rect key="frame" x="20" y="20" width="70" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="出版社" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KO3-bh-9Hm">
+                        <rect key="frame" x="20" y="51" width="46" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.36862745098039218" green="0.40392156862745099" blue="0.43137254901960786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ISBN编码" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ytz-ZJ-aWS">
+                        <rect key="frame" x="20" y="79" width="64.333333333333329" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.36862745098039218" green="0.40392156862745099" blue="0.43137254901960786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上架时间" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="38e-qC-vmr">
+                        <rect key="frame" x="20.000000000000004" y="107" width="61.333333333333343" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.36862745098039218" green="0.40392156862745099" blue="0.43137254901960786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北京出版" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jX7-d8-oo1">
+                        <rect key="frame" x="316" y="51" width="62" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7389472612" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJu-SG-38n">
+                        <rect key="frame" x="290" y="79" width="88" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2024-4-6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHn-5G-Rtj">
+                        <rect key="frame" x="309.33333333333331" y="111" width="68.666666666666686" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ytz-ZJ-aWS" firstAttribute="leading" secondItem="KO3-bh-9Hm" secondAttribute="leading" id="07I-32-Vcf"/>
+                    <constraint firstItem="38e-qC-vmr" firstAttribute="leading" secondItem="ytz-ZJ-aWS" secondAttribute="leading" id="4cP-sS-ZHQ"/>
+                    <constraint firstItem="hHn-5G-Rtj" firstAttribute="centerY" secondItem="38e-qC-vmr" secondAttribute="centerY" constant="4" id="5nq-8S-kIy"/>
+                    <constraint firstItem="KO3-bh-9Hm" firstAttribute="leading" secondItem="FVk-HI-coX" secondAttribute="leading" id="D8P-01-tzb"/>
+                    <constraint firstAttribute="trailing" secondItem="jX7-d8-oo1" secondAttribute="trailing" constant="20" id="EPp-AS-IOr"/>
+                    <constraint firstItem="KO3-bh-9Hm" firstAttribute="top" secondItem="FVk-HI-coX" secondAttribute="bottom" constant="10" id="IM9-U0-9eN"/>
+                    <constraint firstItem="FVk-HI-coX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="L53-Sf-zjf"/>
+                    <constraint firstItem="ytz-ZJ-aWS" firstAttribute="top" secondItem="KO3-bh-9Hm" secondAttribute="bottom" constant="10" id="Obx-Lm-X9L"/>
+                    <constraint firstItem="38e-qC-vmr" firstAttribute="top" secondItem="ytz-ZJ-aWS" secondAttribute="bottom" constant="10" id="StN-b8-myw"/>
+                    <constraint firstItem="wJu-SG-38n" firstAttribute="centerY" secondItem="ytz-ZJ-aWS" secondAttribute="centerY" id="kON-sR-0vy"/>
+                    <constraint firstItem="wJu-SG-38n" firstAttribute="trailing" secondItem="jX7-d8-oo1" secondAttribute="trailing" id="lb5-qh-jFg"/>
+                    <constraint firstItem="hHn-5G-Rtj" firstAttribute="trailing" secondItem="wJu-SG-38n" secondAttribute="trailing" id="p5Y-Kj-xEj"/>
+                    <constraint firstItem="jX7-d8-oo1" firstAttribute="centerY" secondItem="KO3-bh-9Hm" secondAttribute="centerY" id="un3-14-LOl"/>
+                    <constraint firstItem="FVk-HI-coX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="wLw-am-hog"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bookISBNLabel" destination="wJu-SG-38n" id="CPc-bu-zgu"/>
+                <outlet property="bookPressLabel" destination="jX7-d8-oo1" id="0oZ-Bk-3vp"/>
+                <outlet property="dateLabel" destination="hHn-5G-Rtj" id="Vph-pn-ztQ"/>
+            </connections>
+            <point key="canvasLocation" x="172.51908396946564" y="-8.0985915492957758"/>
+        </tableViewCell>
+    </objects>
+</document>
