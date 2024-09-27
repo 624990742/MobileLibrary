@@ -1,8 +1,11 @@
-# Mobile Library
+# MobileLibrary
 
 #### 介绍
-这是一个有关图书馆的毕业设计，题目为基于iOS系统的图书管理系统的设计与实现。 
-ios端采用objective-c和Swift进行开发的，后端采用java进行开发。
+    这是一个有关图书馆的毕业设计，题目为基于iOS系统的图书管理系统的设计与实现。
+    ios端采用objective-c和Swift进行开发的，后端采用java进行开发。MobileLibrary-ios中是ios代码，
+    MobileLibrary-java中是后台代码。本项目只是自己在专升本学习中为了应付完成学业所做的一个项目，
+    仅供感兴趣的朋友学习，大佬勿喷！！！
+    
 #### 软件架构
 软件架构说明
 
