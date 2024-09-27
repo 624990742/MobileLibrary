@@ -7,15 +7,15 @@
 `注意：本项目是作者在专升本学习期间为完成学业而开发，仅供学习交流使用，非专业级项目，请勿用过高标准衡量。`
 
 #### 开发工具
-1.Mac  
-2.Xcode 14.3 以上
-3.Navicat Premium 15.0及以上
-4.IntelliJ IDEA 2023
+- 1.Mac  
+- 2.Xcode 14.3 以上
+- 3.Navicat Premium 15.0及以上
+- 4.IntelliJ IDEA 2023
 
 #### 使用说明
-1.数据库驱动使用的是MySQL 8.3.0，请自行安装。（已经放在了otherFile 文件夹下）
-2.MobileLibrary.sql 是sql语句的可执行文件请配合Navicat Premium使用。
-3.剩下的自己看源码你懂得。
+- 1.数据库驱动使用的是MySQL 8.3.0，请自行安装。（已经放在了otherFile 文件夹下）
+- 2.MobileLibrary.sql 是sql语句的可执行文件请配合Navicat Premium使用。
+- 3.剩下的自己看源码你懂得。
 #### 部分项目截图
   ![项目截图1](https://github.com/624990742/MobileLibrary/blob/main/ScreenShot/1.png)
   ![项目截图2](https://github.com/624990742/MobileLibrary/blob/main/ScreenShot/2.png)
@@ -26,8 +26,6 @@
   ![项目截图7](https://github.com/624990742/MobileLibrary/blob/main/ScreenShot/7.png)
   ![项目截图8](https://github.com/624990742/MobileLibrary/blob/main/ScreenShot/8.png)
   ![项目截图9](https://github.com/624990742/MobileLibrary/blob/main/ScreenShot/9.png)
-  ![项目截图10](https://github.com/624990742/MobileLibrary/blob/main/ScreenShot/10.png)
-  ![项目截图11](https://github.com/624990742/MobileLibrary/blob/main/ScreenShot/11.png)
   
 #### 最后声明
 
