@@ -292,7 +292,7 @@ extension MLRegisterController {
     
     //        MLUserInfoManager.userId = "1189273"
     //        let testDict = ["userId":"1189273",
-    //                        "userIphone":"187117263",
+    //                        "userIphone":"18710172063",
     //                        "userPassword":"123456",
     //                        "userSex":"1",
     //                        "userRole":"superAdmin"] as [String : String]

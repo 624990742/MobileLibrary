@@ -303,11 +303,11 @@ class MLLoginController: MLBaseController ,UITextFieldDelegate {
 
     
         
-//        if self.iphoneTextFiled.text == "187117263" && self.passwordTextField.text == "123456"{
+//        if self.iphoneTextFiled.text == "18710172063" && self.passwordTextField.text == "123456"{
 //
 //            MLUserInfoManager.userId = "1189273"
 //            let testDict = ["userId":"1189273",
-//                            "userIphone":"187117263",
+//                            "userIphone":"18710172063",
 //                            "userPassword":"123456"] as [String : String]
 //            MLUserInfoManager.setupLoginSuccessInfo(entity: testDict) {
 //                self.closeBtnAction(self.closeBtn)
